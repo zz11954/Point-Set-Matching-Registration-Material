@@ -218,16 +218,16 @@ A list of point set matching / point set registration resources.
 - [KCNet] Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, CVPR'2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf) [[code]](http://www.merl.com/research/license#KCNet)
 - [SRC] Consensus Maximization for Semantic Region Correspondences, CVPR'2018 [[pdf]](https://www.cvg.ethz.ch/research/secon/paper/PSpeciale2018CVPR.pdf) [[code]](https://www.cvg.ethz.ch/research/secon/paper/PSpeciale2018CVPR_code_sample.zip)
 - [CODE] Code: Coherence based decision boundaries for feature correspondence, TPAMI'2018 [[pdf]](https://ora.ox.ac.uk/objects/uuid:0e5a62ab-fb69-472f-a1e1-49d49595db62/download_file?safe_filename=matching.pdf&file_format=application%2Fpdf&type_of_work=Journal+article) [[project]](http://www.kind-of-works.com/CODE_matching.html)
-- [DFE] Deep fundamental matrix estimation, ECCV'2018 [[code]](https://github.com/isl-org/DFE)
-- [N3Net] Neural Nearest Neighbors Networks, NeurIPS'2018 [[code]](https://github.com/visinf/n3net/)
-- [OANet] Learning Two-View Correspondences and Geometry Using Order-Aware Network ICCV'2019 [[code]](https://github.com/zjhthu/OANet)
+
+
+
 - [LPM] Locality preserving matching, IJCV'2019 [[pdf]](https://link.springer.com/article/10.1007/s11263-018-1117-z) [[code]](https://github.com/jiayi-ma?tab=repositories)
-- [LMR] LMR: Learning A Two-class Classifier for Mismatch Removal, TIP'2019 [[pdf]](https://ieeexplore.ieee.org/abstract/document/8672170/) [[code]](https://github.com/StaRainJ/LMR)
+
 - [PFFM] Progressive Filtering for Feature Matching, ICASSP'2019 [[pdf]](https://ieeexplore.ieee.org/abstract/document/8682372/)
-- [NM-Net] NM-Net: Mining Reliable Neighbors for Robust Feature Correspondences, arXiv'2019 [[pdf]](https://arxiv.org/pdf/1904.00320)
-- [NG-RANSAC] Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses, ICCV'2019 [[pdf](https://arxiv.org/pdf/1905.04132.pdf)] [[code](https://github.com/vislearn/ngransac)] [[project](https://hci.iwr.uni-heidelberg.de/vislearn/research/neural-guided-ransac/)]
+
+
 - [MAGSAC] MAGSAC: Marginalizing Sample Consensus, CVPR'2019 [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Barath_MAGSAC_Marginalizing_Sample_Consensus_CVPR_2019_paper.pdf) [[code]](https://github.com/danini/magsac)
-- [DLCM] Unsupervised Learning of Consensus Maximization for 3D Vision Problems, CVPR'2019 [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_Unsupervised_Learning_of_Consensus_Maximization_for_3D_Vision_Problems_CVPR_2019_paper.pdf)
+
 - [ACNe] ACNe: Attentive context normalization for robust permutation-equivariant learning, CVPR'2020[[code]](https://github.com/vcg-uvic/acne)
 - [SuperGlue] SuperGlue: Learning Feature Matching with Graph Neural Networks, CVPR'2020 [[code]](https://github.com/magicleap/SuperGluePretrainedNetwork)
 - [EifficientDeterministicSearch] Efficient Deterministic Search with Robust Loss Functions for Geometric Model Fitting, TPAMI'2021 [[code]](https://github.com/AoxiangFan/EifficientDeterministicSearch)
@@ -237,7 +237,7 @@ A list of point set matching / point set registration resources.
 - [TransMVSNet] TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers, CVPR'2022 [[code]](https://github.com/MegviiRobot/TransMVSNet)
 - [ConvMatch] ConvMatch: Rethinking Network Design for Two-View Correspondence Learning, AAAI'2023 [[code]](https://github.com/SuhZhang/ConvMatch)
 - [LightGlue] LightGlue: Local Feature Matching at Light Speed, arxiv'2023 [[pdf]](https://arxiv.org/pdf/2306.13643.pdf) [[code]](https://github.com/cvg/LightGlue)
-- [GlueStick] GlueStick: Robust Image Matching by Sticking Points and Lines Together, ICCV'2023 [[pdf]](https://arxiv.org/pdf/2304.02008.pdf) [[code]](https://github.com/cvg/GlueStick)
+
 - [DKM] DKM: Dense Kernelized Feature Matching for Geometry Estimation, CVPR'2023 [[code]](https://github.com/Parskatt/DKM)
 - [ASTR] ASTR: Adaptive Spot-Guided Transformer for Consistent Local Feature Matching, CVPR'2023 [[code]](https://astr2023.github.io/)
 - [IMP] IMP: Iterative Matching and Pose Estimation with Adaptive Pooling, CVPR'2023 [[code]](https://github.com/feixue94/imp-release)
@@ -248,7 +248,7 @@ A list of point set matching / point set registration resources.
 - [FSNet] Two-View Geometry Scoring Without Correspondences, CVPR'2023 [[code]](https://github.com/nianticlabs/scoring-without-correspondences)
 - [RoMa] RoMa: Robust Dense Feature Matching, CVPR'2024 [[pdf]](https://arxiv.org/abs/2305.15404) [[code]](https://github.com/Parskatt/RoMa)
 - [Efficient LoFTR] Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed, CVPR'2024 [[pdf]](https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf) [[code]](https://github.com/zju3dv/efficientloftr)
-- [MESA] MESA: Matching Everything by Segmenting Anything, CVPR'2024 [[pdf]](https://arxiv.org/abs/2401.16741)
+
 
 
 <a name="Mismatch Remo"></a>
