@@ -194,39 +194,17 @@ A list of point set matching / point set registration resources.
 <a name="mrm"></a>
 ### Feature Matching/Mismatch Removing/Correspondence Learning/Pruning
 
-- [RANSAC] Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography, 1981 [[pdf]](https://apps.dtic.mil/dtic/tr/fulltext/u2/a460585.pdf) [[wiki]](https://en.wikipedia.org/wiki/Random_sample_consensus)
-- [MLESAC] MLESAC: A new robust estimator with application to estimating image geometry, CVIU'2000 [[pdf]](http://www.academia.edu/download/3436793/torr_mlesac.pdf) [[code_pcl]](https://github.com/PointCloudLibrary/pcl/tree/master/sample_consensus/include/pcl/sample_consensus)
-- [PROSAC] Matching with PROSAC-progressive sample consensus, CVPR'2005 [[pdf]](https://dspace.cvut.cz/bitstream/handle/10467/9496/2005-Matching-with-PROSAC-progressive-sample-consensus.pdf?sequence=1) [[code_pcl]](https://github.com/PointCloudLibrary/pcl/tree/master/sample_consensus/include/pcl/sample_consensus)
-- [ICF/SVR] Rejecting mismatches by correspondence function, IJCV'2010 [[pdf]](http://www.nlpr.ia.ac.cn/2010papers/kz/gk24.pdf)
-- [GS] Common visual pattern discovery via spatially coherent correspondences, CVPR'2010 [[pdf]](http://www.jdl.ac.cn/project/faceId/paperreading/Paper/Common%20Visual%20Pattern%20Discovery%20via%20Spatially%20Coherent%20Correspondences.pdf) [[code]](https://sites.google.com/site/lhrbss/home/papers/SimplifiedCode.zip?attredirects=0)
-- [KC-CE] A novel kernel correlation model with the correspondence estimation, JMIV'2011 [[pdf]](https://www.researchgate.net/profile/P_Chen2/publication/225191068_A_Novel_Kernel_Correlation_Model_with_the_Correspondence_Estimation/links/02e7e5232cd89055ab000000/A-Novel-Kernel-Correlation-Model-with-the-Correspondence-Estimation.pdf) [[code]](http://web.nchu.edu.tw/~pengwen/WWW/Code.html)
-- [VFC] A robust method for vector field learning with application to mismatch removing, CVPR'2011 [[pdf]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.721.5913&rep=rep1&type=pdf) [[code]](https://github.com/jiayi-ma?tab=repositories)
-- [DefRANSAC] In defence of RANSAC for outlier rejection in deformable registration, ECCV'2012 [[pdf]](https://media.adelaide.edu.au/acvt/Publications/2012/2012-In%20Defence%20of%20RANSAC%20for%20Outlier%20Rejection%20in%20Deformable%20Registration.pdf) [[code]](https://cs.adelaide.edu.au/~tjchin/lib/exe/fetch.php?media=code:eccv12code.zip)
-- [CM] Robust Non-parametric Data Fitting for Correspondence Modeling, ICCV'2013 [[pdf]](https://mmcheng.net/mftp/Papers/DataFittingICCV13.pdf) [[code]](https://sites.google.com/site/laoszefei81/home/code-1/code-curve-fitting)
-- [AGMM] Asymmetrical Gauss Mixture Models for Point Sets Matching, CVPR'2014 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2014/papers/Tao_Asymmetrical_Gauss_Mixture_2014_CVPR_paper.pdf)
+
 - [TC] Epipolar geometry estimation for wide baseline stereo by Clustering Pairing Consensus, PRL'2014 [[pdf]](http://or.nsfc.gov.cn/bitstream/00001903-5/96605/1/1000007190373.pdf)
 - [BF] Bilateral Functions for Global Motion Modeling, ECCV'2014 [[pdf]](http://mftp.mmcheng.net/Papers/CoherentModelingS.pdf) [[project]](https://mmcheng.net/bfun/) [[code]](http://mftp.mmcheng.net/Data/eccv_2014_release.zip)
 - [WxBS] WxBS: Wide Baseline Stereo Generalizations, BMVC'2015 [[pdf]](https://arxiv.org/pdf/1504.06603) [[project]](http://cmp.felk.cvut.cz/wbs/)
 - [RepMatch] RepMatch: Robust Feature Matching and Posefor Reconstructing Modern Cities, ECCV'2016 [[pdf]](http://www.kind-of-works.com/papers/eccv_2016_repmatch.pdf) [[project]](http://www.kind-of-works.com/RepMatch.html) [[code]](http://www.kind-of-works.com/code/repmatch_code_bf_small.zip)
-- [SIM] The shape interaction matrix-based affine invariant mismatch removal for partial-duplicate image search, TIP'2017 [[pdf]](http://www.cis.pku.edu.cn/faculty/vision/zlin/Publications/2017-TIP-SIM.pdf) [[code]](https://github.com/lylinyang/demo_SIM)
-- [DSAC] DSAC: differentiable RANSAC for camera localization, CVPR'2017 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Brachmann_DSAC_-_Differentiable_CVPR_2017_paper.pdf) [[code]](https://github.com/cvlab-dresden/DSAC)
 - [GMS] GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence, CVPR'2017 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bian_GMS_Grid-based_Motion_CVPR_2017_paper.pdf) [[code]](https://github.com/JiawangBian/GMS-Feature-Matcher)
 - [LMI] Consensus Maximization with Linear Matrix Inequality Constraints, CVPR'2017 [[pdf]](https://www.cvg.ethz.ch/research/conmax/paper/PSpeciale2017CVPR.pdf) [[project]](https://www.cvg.ethz.ch/research/conmax/) [[code]](https://www.cvg.ethz.ch/research/conmax/paper/PSpeciale2017CVPR_code_sample.tar.gz)
 - [GOPAC] Globally-Optimal Inlier Set Maximisation for Simultaneous Camera Pose and Feature Correspondence, ICCV'2017 [[pdf]](https://drive.google.com/open?id=0BwzhzqTiWNEWTzE3ZW1lNnhBTUE) TPAMI'2018 [[pdf]](https://drive.google.com/open?id=1FV_SFoxVvsspK3uh9lRYsJPUSX0kuI_L) [[code]](https://drive.google.com/open?id=1H7gOQz7CAXSat56OPTgV2lOLUSI4D_vG)
-- [LFGC] Learning to Find Good Correspondences, CVPR'2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1453.pdf) [[code]](https://github.com/vcg-uvic/learned-correspondence-release)
-- [GC-RANSAC] Graph-Cut RANSAC, CVPR'2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Barath_Graph-Cut_RANSAC_CVPR_2018_paper.pdf) [[code]](https://github.com/danini/graph-cut-ransac)
 - [KCNet] Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, CVPR'2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf) [[code]](http://www.merl.com/research/license#KCNet)
 - [SRC] Consensus Maximization for Semantic Region Correspondences, CVPR'2018 [[pdf]](https://www.cvg.ethz.ch/research/secon/paper/PSpeciale2018CVPR.pdf) [[code]](https://www.cvg.ethz.ch/research/secon/paper/PSpeciale2018CVPR_code_sample.zip)
-- [CODE] Code: Coherence based decision boundaries for feature correspondence, TPAMI'2018 [[pdf]](https://ora.ox.ac.uk/objects/uuid:0e5a62ab-fb69-472f-a1e1-49d49595db62/download_file?safe_filename=matching.pdf&file_format=application%2Fpdf&type_of_work=Journal+article) [[project]](http://www.kind-of-works.com/CODE_matching.html)
-
-
-
 - [LPM] Locality preserving matching, IJCV'2019 [[pdf]](https://link.springer.com/article/10.1007/s11263-018-1117-z) [[code]](https://github.com/jiayi-ma?tab=repositories)
-
-- [PFFM] Progressive Filtering for Feature Matching, ICASSP'2019 [[pdf]](https://ieeexplore.ieee.org/abstract/document/8682372/)
-
-
-- [MAGSAC] MAGSAC: Marginalizing Sample Consensus, CVPR'2019 [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Barath_MAGSAC_Marginalizing_Sample_Consensus_CVPR_2019_paper.pdf) [[code]](https://github.com/danini/magsac)
 
 - [ACNe] ACNe: Attentive context normalization for robust permutation-equivariant learning, CVPR'2020[[code]](https://github.com/vcg-uvic/acne)
 - [SuperGlue] SuperGlue: Learning Feature Matching with Graph Neural Networks, CVPR'2020 [[code]](https://github.com/magicleap/SuperGluePretrainedNetwork)
@@ -234,26 +212,13 @@ A list of point set matching / point set registration resources.
 - [LoFTR] Detector-free local feature matching with transformers, CVPR'2021 [[code]](https://github.com/zju3dv/LoFTR)
 - [GLOF] Robust Feature Matching Using Guided Local Outlier Factor, PR'2021 [[pdf](https://www.sciencedirect.com/science/article/pii/S0031320321001734)] [[code](https://github.com/gwang-cv/GLOF)]
 - [CAT] Correspondence Attention Transformer: A Context-sensitive Network for Two-view Correspondence Learning, TMM'2022 [[code]](https://github.com/jiayi-ma/CorresAttnTransformer)
-- [TransMVSNet] TransMVSNet: Global Context-aware Multi-view Stereo Network with Transformers, CVPR'2022 [[code]](https://github.com/MegviiRobot/TransMVSNet)
-- [ConvMatch] ConvMatch: Rethinking Network Design for Two-View Correspondence Learning, AAAI'2023 [[code]](https://github.com/SuhZhang/ConvMatch)
-- [LightGlue] LightGlue: Local Feature Matching at Light Speed, arxiv'2023 [[pdf]](https://arxiv.org/pdf/2306.13643.pdf) [[code]](https://github.com/cvg/LightGlue)
-
-- [DKM] DKM: Dense Kernelized Feature Matching for Geometry Estimation, CVPR'2023 [[code]](https://github.com/Parskatt/DKM)
-- [ASTR] ASTR: Adaptive Spot-Guided Transformer for Consistent Local Feature Matching, CVPR'2023 [[code]](https://astr2023.github.io/)
-- [IMP] IMP: Iterative Matching and Pose Estimation with Adaptive Pooling, CVPR'2023 [[code]](https://github.com/feixue94/imp-release)
-- [PATS] PATS: Patch Area Transportation with Subdivision for Local Feature Matching, CVPR'2023 [[code]](https://zju3dv.github.io/pats/)
-- [NCMNet] Progressive Neighbor Consistency Mining for Correspondence Pruning, CVPR'2023 [[code]](https://github.com/xinliu29/NCMNet)
-- [AdaMatcher] Adaptive Assignment for Geometry Aware Local Feature Matching, CVPR'2023 [[code]](https://github.com/AbyssGaze/AdaMatcher)
-- [SEM] Structured Epipolar Matcher for Local Feature Matching, CVPR'2023 [[code]](https://sem2023.github.io/)
-- [FSNet] Two-View Geometry Scoring Without Correspondences, CVPR'2023 [[code]](https://github.com/nianticlabs/scoring-without-correspondences)
-- [RoMa] RoMa: Robust Dense Feature Matching, CVPR'2024 [[pdf]](https://arxiv.org/abs/2305.15404) [[code]](https://github.com/Parskatt/RoMa)
-- [Efficient LoFTR] Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed, CVPR'2024 [[pdf]](https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf) [[code]](https://github.com/zju3dv/efficientloftr)
 
 
 
-<a name="Mismatch Remo"></a>
-#### Mismatch Removing
-- 123
+
+
+
+
 
 <a name="gmm"></a>
 ### Graph Matching Methods
